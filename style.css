@@ -1143,3 +1143,24 @@ section {
     text-align: center;
   }
 }
+/* Footer styling updated for spacing, contrast, and responsiveness */
+footer {
+  background-color: #0f172a;   /* dark background */
+  color: #ffffff;              /* high contrast text */
+  padding: 20px;
+  text-align: center;
+  font-size: 14px;
+}
+
+footer p {
+  margin: 8px 0;
+  line-height: 1.5;
+}
+
+/* Mobile-friendly adjustment */
+@media (max-width: 600px) {
+  footer {
+    font-size: 13px;
+    padding: 16px;
+  }
+}
