@@ -36,7 +36,16 @@ Original:
 Add this line (example):
 
 ```html
-<p><strong>Deployed by:</strong> DMI Cohort 2 | Rahul Sharma | Group 4 | Week 1 | 16-01-2026</p>
+<p>
+  Pravin Mishra Portfolio v1.0 — Deployed on
+  <span id="deployDate"></span> — By Bhargavi Mudragiri
+</p>
+
+<script>
+  const d = new Date();
+  const formattedDate = d.toISOString().split('T')[0];
+  document.getElementById("deployDate").textContent = formattedDate;
+</script>
 ```
 
 ✅ This proof must be visible in your browser screenshot submission.
